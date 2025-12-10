@@ -32,6 +32,7 @@ int main()
     allOk &= test("5-10=", -5);
     allOk &= test("123=", 123);
     allOk &= test("0+0-0=", 0);
+    // Přidej další testy
 
     if (allOk)
         cout << "Všechny testy prošly.\n";

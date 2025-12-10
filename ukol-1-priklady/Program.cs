@@ -30,6 +30,7 @@ class Program
         allOk &= Test("5-10=", -5);
         allOk &= Test("123=", 123);
         allOk &= Test("0+0-0=", 0);
+        // Přidej další testy
 
         if (allOk)
             Console.WriteLine("Všechny testy prošly.");
